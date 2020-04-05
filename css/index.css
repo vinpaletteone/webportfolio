@@ -207,6 +207,7 @@ nav a:hover:after {
 		position: absolute;
 		right: 15px;
 		padding: 0;
+		border: 0;
 	}
 	
 	#buger-close img{
@@ -649,7 +650,7 @@ nav a:hover:after {
 .project-content p{
 	font-size: 14px;
 	line-height: 20px;
-	color: #C6C6C6;
+	color: #b6b6b6;
 }
 
 #modal-container{
@@ -751,7 +752,7 @@ nav a:hover:after {
 	}
 
 	.project-right p{
-		font-size: 10.5px;
+		font-size: 10px;
 		line-height: 20px;
 	}
 
@@ -983,8 +984,8 @@ footer{
 
 @media screen and (max-width: 768px) {
 	.scrolltop{
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		top: 90%;
 		right: 10px;
 	}
