@@ -126,7 +126,7 @@ nav a:hover:after {
     #buger{
 		display: inline-block;
 		position: absolute;
-		top: 12px;
+		top: 13px;
 		right: 1px;
 		width: 30px;
 		height: 30px;
