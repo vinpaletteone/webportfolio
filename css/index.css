@@ -33,7 +33,6 @@ header{
 	background-color: white;
 	width: 100%;
 	z-index: 11111111111;
-	/* position: fixed; */
 }
 
 .header-container{
@@ -48,10 +47,7 @@ header{
 
 .header-container > a{
 	float: left;
-}
-
-.header-container img{
-	padding-top: 37px;
+	margin-top: 37px;
 }
 
 #buger, #buger-close{
@@ -76,15 +72,15 @@ nav > ul > li > a{
 	font-size: 17px;
 	color: #969696;
 	text-decoration: none;
+	display: block;
 }
 
 nav > ul > li:last-child > a{
 	margin-right: 0;
 }
 
-.header-container::after, nav > ul::after, .profile::after, .impact ul::after, 
-.project-info::after, .project-box::after, .stack-box::after, .footer-box::after, .modal-info::after,
-.mobile-wrap::after{
+
+.clear-fix::after{
 	content: "";
 	display: block;
 	clear: both;
@@ -163,10 +159,6 @@ nav a:hover:after {
 		height: 60px;
 		width: 100%;
 	}
-	
-    /* nav{
-		display: block;
-	} */
 	
 	.header-container a{
 		float: none;
@@ -263,17 +255,6 @@ nav a:hover:after {
 	left: -1px;
     z-index: -1;
 }
-
-/* .circle{
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	background-color: #FFE0E3;
-	border-radius: 50%;
-	position: relative;
-    left: -3px;
-    top: -1px;
-} */
 
 .icon::after{
 	content: "";
@@ -873,12 +854,6 @@ nav a:hover:after {
 	float: left;
 }
 
-.stack-content::after{
-	content: '';
-	display: block;
-	clear: both;
-}
-
 .stack-content{
 	margin-bottom: 40px;
 	float: left;
@@ -952,8 +927,6 @@ nav a:hover:after {
 		margin-bottom: 0;
 	}
 }
-
-
 /* stack */
 
 
@@ -1077,12 +1050,6 @@ footer{
 	font-weight: 600;
 }
 
-.section01::after{
-	content: '';
-	display: block;
-	clear: both;
-}
-
 .section01 ul, .section01 span{
 	float: left;
 }
@@ -1159,12 +1126,6 @@ footer{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-}
-
-.content-container::after{
-	content: '';
-	display: block;
-	clear: both;
 }
 
 /* scroll */
