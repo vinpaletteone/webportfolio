@@ -1,6 +1,6 @@
 # Jisubin.Dev
 
-![image](https://user-images.githubusercontent.com/57277591/78687235-ed9a7280-792e-11ea-9d8e-df59e3e1cec1.png)
+![image](https://user-images.githubusercontent.com/57277591/78687577-4407b100-792f-11ea-9f72-c3406146fec2.png)
 
 [https://vinpaletteone.github.io/jisubin.dev](https://vinpaletteone.github.io/jisubin.dev)
 
