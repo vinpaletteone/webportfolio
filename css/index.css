@@ -642,7 +642,6 @@ nav a:hover:after {
 	margin: 0 46px 44px 0;
 	float: left;
 	overflow: hidden;
-	cursor: pointer;
 }
 
 .project-content:last-child{
@@ -658,6 +657,7 @@ nav a:hover:after {
 .project-content img{
 	max-width: 369px;
 	max-height: 208px;
+	cursor: pointer;
 }
 
 .project-content:hover img{

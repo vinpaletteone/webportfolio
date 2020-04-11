@@ -118,7 +118,7 @@ window.onload = function(){
 	});
 
 	//modal
-	$('.project-content').click(function(){
+	$('.project-content img').click(function(){
 		let modalId = $(this).attr('id');
 		
 		if($(this).attr('id') == modalId){
